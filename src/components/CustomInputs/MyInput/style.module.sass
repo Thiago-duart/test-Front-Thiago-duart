@@ -1,0 +1,21 @@
+.container
+    display: flex
+    flex-direction: column
+    gap: 0.6rem
+.input
+    height: 2.2rem
+    outline: none
+    padding: 0 1rem
+    border: none
+    border: 1px solid var(--color-grey-54)
+    color: black
+    &::placeholder
+        font-family: var(--font-family-open-sans)
+        font-size: 1rem
+        color: var(--color-grey-87)
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button
+    -webkit-appearance: none
+    appearance: none
+    margin: 0
