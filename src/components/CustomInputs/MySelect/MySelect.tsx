@@ -3,7 +3,7 @@ import style from "./style.module.sass";
 interface Props {
   label: string;
   placeholder: string;
-  cepData: Record<string, any>;
+  cepData: string;
 }
 export const MySelect = forwardRef(
   ({ label, placeholder, cepData, ...rest }: Props, ref: any) => {
